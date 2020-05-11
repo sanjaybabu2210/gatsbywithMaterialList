@@ -1,0 +1,46 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: #333;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+html {
+  font: 112.5%/1.45em georgia, serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+* {
+  box-sizing: inherit;
+}
+*:before {
+  box-sizing: inherit;
+}
+*:after {
+  box-sizing: inherit;
+}
+
+
+li > ul {
+  margin-left: 1.45rem;
+  margin-bottom: calc(1.45rem / 2);
+  margin-top: calc(1.45rem / 2);
+}
